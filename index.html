@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html id="html">
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Limelight"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico.ico" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body id="body">
+    <h1 id="tl">Tip Calculation Assitance</h1>
+    <hr class="hr" />
+    <p id="smlltxt">
+      Want to know how much each person will be paying for tips? Enter your
+      information below then click get "Calculate" to see!
+    </p>
+    <!-- Webpage Theme Buttons -->
+    <button id="webStyle1">--{Light Mode}--</button
+    ><button id="webStyle2">--{Normal}--</button
+    ><button id="webStyle3">--{Dark Mode}--</button>
+    <hr class="hr" />
+    <!-- Tip Calculation Section -->
+    <div id="div">
+      <h1 id="calc-tl">Tip Calculator</h1>
+      <p id="calc-subtl">Bill Amount:</p>
+      <input id="bill" type="number" placeholder="Enter Bill Amount" />
+      <p id="calc-subtl">Tip %:</p>
+      <input id="tip" type="number" placeholder="Enter Tip Percent" />
+      <p id="calc-subtl">Number Of People</p>
+      <input id="people" type="number" placeholder="Enter Number Of People" />
+      <br />
+      <span><button id="calculate">Calculate</button></span>
+    </div>
+    <!-- Tip Calculation Results -->
+    <div id="div2">
+      <p id="calc-subtl">---{Tip Amount}---</p>
+      <span id="outputTip"></span>
+      <p id="calc-subtl">---{Tip Per Person}---</p>
+      <span id="outputTipPerPerson"></span>
+      <p id="calc-subtl">---{Total Bill Amount}---</p>
+      <span id="outputTotalBill"></span>
+    </div>
+  </body>
+</html>
